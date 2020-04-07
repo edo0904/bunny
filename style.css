@@ -4,3 +4,9 @@ body {
   background-image: url("img/bg.png");
   background-repeat: repeat;
   }
+
+  .inner {
+    width: 1080px;
+    max-width: 100%;
+  margin: 0 auto;
+  }
