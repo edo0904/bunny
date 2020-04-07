@@ -1,6 +1,6 @@
-@charset "UTF-8";
+/* ベース　*/
 
-/* ベースパッケージ　*/
+@charset "UTF-8";
 
 html {
   margin: 0;
@@ -83,4 +83,30 @@ a:hover {
 .footer-logo img {
   width: 200px;
   height: 75px;
+}
+/* 背景色の設定 */
+#header {
+  background-color: #fff;
+}
+
+#feature {
+  background-color: #fff;
+}
+.block {
+  background-color: #fff;
+}
+
+#news {
+  background-color: #fff;
+}
+#contact {
+  background-color: #fff;
+}
+#footer {
+  background-color: #C6C6C6;
+  color: #FFFFFF;
+}
+
+.footer-nav li a {
+  color: #FFFFFF;
 }
