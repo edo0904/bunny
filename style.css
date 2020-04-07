@@ -46,7 +46,6 @@ li {
 
 a {
   text-decoration: none;
-  color: #333;
 }
 
 a:hover {
@@ -103,10 +102,37 @@ a:hover {
   background-color: #fff;
 }
 #footer {
-  background-color: #C6C6C6;
-  color: #FFFFFF;
+  background-color: #c6c6c6;
+  color: #ffffff;
 }
 
 .footer-nav li a {
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+#header .inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.header-btn {
+  width: 180px;
+  height: 48px;
+  margin: 21px 0px;
+  background-color: #ec84a0;
+  border: #ec84a0;
+  border-radius: 28px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header-btn a {
+  color: #ffffff;
+  line-height: 48px;
+}
+.header-logo img {
+  position: absolute;
+  top: 50%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);;
 }
