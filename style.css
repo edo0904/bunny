@@ -90,9 +90,12 @@ a:hover {
 
 #feature {
   background-color: #fff;
+  height: 651px;
 }
 .block {
   background-color: #fff;
+  height: 300px;
+  margin: 60px 0px;
 }
 
 #news {
@@ -121,7 +124,9 @@ a:hover {
   margin: 21px 0px;
   background-color: #ec84a0;
   border: #ec84a0;
+  box-shadow: 3px 3px 10px #00000029;
   border-radius: 28px;
+  opacity: 1;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
@@ -133,6 +138,79 @@ a:hover {
 .header-logo img {
   position: absolute;
   top: 50%;
-  -webkit-transform : translateY(-50%);
-  transform : translateY(-50%);;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.container {
+  width: 1080px;
+  height: 595px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.container-right {
+  display: flex;
+  align-items: center;
+}
+
+.container-left h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 42%;
+}
+.container-left p {
+  font-size: 16px;
+  width: 400px;
+  height: 70px;
+  margin: 20px 0px 75px 0px;
+}
+
+.container-btn ul {
+  display: flex;
+}
+.container-btn ul .li-1 a {
+  width: 166px;
+  height: 48px;
+  padding: 15px 30px;
+  margin: 10px;
+
+  font-weight: bold;
+  color: #fff;
+  background-color: #ec84a0;
+  box-shadow: 3px 3px 10px #00000029;
+  border-radius: 32px;
+  opacity: 1;
+}
+
+.container-btn ul .li-2 a {
+  width: 256px;
+  height: 48px;
+  padding: 15px 30px;
+  margin: 10px;
+
+  font-weight: bold;
+  color: #ec84a0;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 10px #00000029;
+  border: 2px solid #ec84a0;
+  border-radius: 32px;
+  opacity: 1;
+}
+/* /mainvisual */
+.heading {
+  text-align: center;
+  padding: 60px 0px; 
+}
+
+
+
+.group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content p {
+  text-align: center;
+  font-size: 16px;
 }
