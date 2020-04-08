@@ -75,6 +75,10 @@ a:hover {
   width: 450px;
   height: 300px;
 }
+.block-r img {
+  width: 450px;
+  height: 300px;
+}
 .card img {
   width: 300px;
   height: 168px;
@@ -91,11 +95,6 @@ a:hover {
 #feature {
   background-color: #fff;
   height: 651px;
-}
-.block {
-  background-color: #fff;
-  height: 300px;
-  margin: 60px 0px;
 }
 
 #news {
@@ -198,12 +197,16 @@ a:hover {
   opacity: 1;
 }
 /* /mainvisual */
+
 .heading {
   text-align: center;
-  padding: 60px 0px; 
+  padding: 60px 0px;
+}
+.heading h2 {
+  font-size: 32px;
 }
 
-
+/* feature */
 
 .group {
   display: flex;
@@ -213,4 +216,43 @@ a:hover {
 .content p {
   text-align: center;
   font-size: 16px;
+}
+
+/* /feature */
+
+/* about */
+.block {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.block-r {
+  height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.block .text {
+  margin: auto;
+}
+.block-r .text {
+  margin: auto;
+}
+.block .text h3 {
+  font-size: 22px;
+}
+.block-r .text h3 {
+  font-size: 22px;
+}
+.block .text p {
+  font-size: 16px;
+  width: 450px;
+}
+
+.block-r .text p {
+  font-size: 16px;
+  width: 450px;
 }
