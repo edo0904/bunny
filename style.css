@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /* ベース　*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -337,5 +342,49 @@ a:hover {
 .block .text-box p {
   font-size: 16px;
   width: 450px;
+}
+
+#news .inner .news-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#news .inner .news-cards .card {
+  padding: 12px 10px;
+  width: 320px;
+  background-color: #fff;
+  -webkit-box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.161);
+          box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.161);
+  opacity: 1;
+}
+
+#news .inner .news-cards .card .card-img {
+  position: relative;
+}
+
+#news .inner .news-cards .card .card-img span {
+  position: absolute;
+  display: block;
+  background-color: #EC9C84;
+  color: #FFFFFF;
+  font-size: 14px;
+  width: 67px;
+  text-align: center;
+  line-height: 1.5;
+  right: 0;
+  top: 0;
+}
+
+#news .inner .news-cards .card .date {
+  font-size: 14px;
+  color: #333333;
+}
+
+#news .inner .news-cards .card p {
+  font-size: 16px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
