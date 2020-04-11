@@ -464,47 +464,20 @@ form {
   margin: 0 auto;
 }
 
-.item {
+form .item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.item .item-left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-
-.item .item-left .required {
-  color: #FFFFFF;
-  background-color: #EC84A0;
-}
-
-.label {
+form .item .label {
   float: left;
   margin-right: 20px;
   width: 135px;
   padding-left: 10px;
 }
 
-.inputs {
-  float: left;
-  width: 300px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
-  border: solid 1px #aaa;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 15px;
-}
-
-textarea {
+form .item textarea {
   border: solid 1px #aaa;
   border-radius: 5px;
   padding: 10px;
@@ -512,22 +485,45 @@ textarea {
   font-size: 15px;
 }
 
-.btn-area {
+form .item .inputs {
+  float: left;
+  width: 300px;
+}
+
+form .item input[type="text"],
+form .item input[type="email"],
+form .item input[type="tel"] {
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+form .item .item-left {
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+form .item .item-left .required {
+  color: #FFFFFF;
+  background-color: #EC84A0;
+}
+
+form .btn-area {
   text-align: center;
 }
 
-input[type="submit"] {
+form .btn-area input[type="submit"] {
+  width: 150px;
+  height: 48px;
   background: #EC84A0;
-  border: none;
-  color: white;
-  font-size: 17px;
-  font-weight: bold;
-  padding: 10px 20px;
-  margin: 0 5px;
-}
-
-input[type="reset"] {
-  background: #aaa;
+  border-radius: 28px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.161);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.161);
   border: none;
   color: white;
   font-size: 17px;

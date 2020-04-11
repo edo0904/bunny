@@ -465,72 +465,72 @@ a:hover {
 form {
   width: 460px;
   margin: 0 auto;
-}
 
-.item {
-  display: flex;
-
-  .item-left {
+  .item {
     display: flex;
-    overflow: hidden;
-    margin-bottom: 20px;
 
-    .required {
-      color: #FFFFFF;
-      background-color: #EC84A0;
+    .label {
+      float: left;
+      margin-right: 20px;
+      width: 135px;
+      padding-left: 10px;
+    }
+
+    textarea {
+      border: solid 1px #aaa;
+      border-radius: 5px;
+      padding: 10px;
+      height: 160px;
+      font-size: 15px;
+    }
+
+    .inputs {
+      float: left;
+      width: 300px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      border: solid 1px #aaa;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 15px;
+    }
+
+    .item-left {
+      font-weight: bold;
+      display: flex;
+      overflow: hidden;
+      margin-bottom: 20px;
+
+      .required {
+        color: #FFFFFF;
+        background-color: #EC84A0;
+      }
+
     }
   }
-}
 
-.label {
-  float: left;
-  margin-right: 20px;
-  width: 135px;
-  padding-left: 10px;
-}
 
-.inputs {
-  float: left;
-  width: 300px;
-}
+  .btn-area {
+    text-align: center;
 
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
-  border: solid 1px #aaa;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 15px;
-}
+    input[type="submit"] {
+      width: 150px;
+      height: 48px;
+      background: #EC84A0;
+      border-radius: 28px;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.161);
 
-textarea {
-  border: solid 1px #aaa;
-  border-radius: 5px;
-  padding: 10px;
-  height: 160px;
-  font-size: 15px;
-}
+      border: none;
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+      padding: 10px 20px;
+      margin: 0 5px;
+    }
 
-.btn-area {
-  text-align: center;
-}
+  }
 
-input[type="submit"] {
-  background: #EC84A0;
-  border: none;
-  color: white;
-  font-size: 17px;
-  font-weight: bold;
-  padding: 10px 20px;
-  margin: 0 5px;
-}
-
-input[type="reset"] {
-  background: #aaa;
-  border: none;
-  color: white;
-  font-size: 17px;
-  font-weight: bold;
-  padding: 10px 20px;
-  margin: 0 5px;
 }
