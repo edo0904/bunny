@@ -387,4 +387,30 @@ a:hover {
   font-size: 16px;
   font-weight: bold;
 }
+
+#news .inner .news-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#news .inner .news-btn a {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0 30px;
+  line-height: 3;
+  margin: 65px 0;
+  line-height: 2.7;
+  background-color: #EC84A0;
+  color: #FFFFFF;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.161);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.161);
+  border-radius: 28px;
+  opacity: 1;
+}
 /*# sourceMappingURL=style.css.map */
