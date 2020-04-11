@@ -415,48 +415,6 @@ a:hover {
 
 //  /news
 
-// contact
-#contact {
-  .inner {
-
-    .form {
-
-      width: 485px;
-      margin: auto;
-
-      justify-content: center;
-
-      label {
-        display: flex;
-
-        justify-content: space-between;
-
-
-
-        .label {
-          font-size: 18px;
-          font-weight: bold;
-          display: flex;
-          align-items: center;
-        }
-
-        p {
-          margin: 0 10px;
-          font-size: 12px;
-          background-color: #EC84A0;
-          color: #FFFFFF;
-
-        }
-
-        .input {
-          display: block;
-          width: 290px;
-        }
-      }
-
-    }
-  }
-}
 
 
 // footer
@@ -497,3 +455,82 @@ a:hover {
 }
 
 //  /footer
+
+
+.lead-form {
+  text-align: center;
+  font-size: 20px;
+}
+
+form {
+  width: 460px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+
+  .item-left {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    .required {
+      color: #FFFFFF;
+      background-color: #EC84A0;
+    }
+  }
+}
+
+.label {
+  float: left;
+  margin-right: 20px;
+  width: 135px;
+  padding-left: 10px;
+}
+
+.inputs {
+  float: left;
+  width: 300px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+textarea {
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  height: 160px;
+  font-size: 15px;
+}
+
+.btn-area {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background: #EC84A0;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+input[type="reset"] {
+  background: #aaa;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+}

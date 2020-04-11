@@ -162,62 +162,53 @@
           <div class="heading-img"><img src="img/h-bottom.png" alt=""></div>
         </div>
 
-        <div class="form">
-          <label>
-            <div class="label">
-              お名前
-              <p>必須</p>
-            </div>
-            <div class="input">
-              <input type="text">
-            </div>
-          </label>
-        </div>
-        <div class="form">
-          <label>
-            <div class="label">
-              メールアドレス
-              <p>必須</p>
-            </div>
-            <div class="input">
-              <input type="email" placeholder="info@sample.com">
-            </div>
-            
+        <form>
 
-          </label>
+          <div class="item">
+            <div class="item-left">
+              <label class="label">お名前</label>
+              <span class="required">必須</span>
+            </div>
+            <div class="item-right">
+              <input class="inputs" type="text" name="name">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-left">
+              <label class="label">メールアドレス</label>
+              <span class="required">必須</span>
+            </div>
+            <div class="input-right">
+              <input class="inputs" type="email" name="email">
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-left">
+              <label class="label">電話番号</label>
+              <span class="required">必須</span>
+            </div>
+            <div class="input-right">
+              <input class="inputs" type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+            </div>
+          </div>
 
 
-        </div>
-        <div class="form">
-          <label>
-            <div class="label">
-              電話番号
-              <p>必須</p>
-            </div>
-            <div class="input">
-              <input type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="090-1234-5678">
-            </div>
-            
-          </label>
-        </div>
 
-        <div class="form">
-          <label>
-            <div class="label">
-              お問い合わせ
-            </div>
-            <div class="input">
-               <input type="text">
-            </div>
-           
-          </label>
-        </div>
-        <label>
-          <input type="submit" value="送信">
-        </label>
+          <div class="item">
+            <label class="label">お問い合わせ</label>
+            <textarea class="inputs"></textarea>
+          </div>
+
+          <div class="btn-area">
+            <input type="submit" value="送信">
+          </div>
+
+        </form>
+
       </div><!-- /inner -->
 
-      
+
     </section><!-- /contact -->
   </main>
   <footer>
